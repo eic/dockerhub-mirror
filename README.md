@@ -18,6 +18,7 @@ Mirrored Images:
 * [`postgres`](https://ghcr.io/eic/postgres)
 * [`python`](https://ghcr.io/eic/python)
 * [`rust`](https://ghcr.io/eic/rust)
+* [`ubuntu`](https://ghcr.io/eic/ubuntu)
 
 [github-actions-badge]: https://img.shields.io/github/actions/workflow/status/eic/dockerhub-mirror/mirror.yml?branch=master "Github Workflow Status (master)"
 [github-actions-link]: https://github.com/eic/dockerhub-mirror/actions?query=workflow%3AMirror%20Dockerhub
