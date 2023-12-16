@@ -19,6 +19,8 @@ jobs:
             repo: docker.io
           - image: busybox
             repo: docker.io
+          - image: curl
+            repo: docker.io/curlimages
           - image: debian
             repo: docker.io
           - image: docker
