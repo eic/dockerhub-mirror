@@ -21,6 +21,8 @@ jobs:
             repo: docker.io
           - image: debian
             repo: docker.io
+          - image: docker
+            repo: docker.io
           - image: golang
             repo: docker.io
           - image: mysql
