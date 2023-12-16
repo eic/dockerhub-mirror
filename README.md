@@ -6,16 +6,18 @@ DockerHub Mirror on Github powered by Github Actions and [Crane](https://github.
 GitHub Actions scheduled to run daily at Midnight UTC to mirror some images to [GHCR.io](https://ghcr.io), bypassing rate limits
 
 Mirrored Images:
-* [`alpine`](https://ghcr.io/rblaine95/alpine)
-* [`busybox`](https://ghcr.io/rblaine95/busybox)
-* [`debian`](https://ghcr.io/rblaine95/debian)
-* [`golang`](https://ghcr.io/rblaine95/golang)
-* [`node`](https://ghcr.io/rblaine95/node)
-* [`mysql`](https://ghcr.io/rblaine95/mysql)
-* [`openjdk`](https://ghcr.io/rblaine95/openjdk) **DEPRECATED** - docker-library/openjdk#505
-* [`postgres`](https://ghcr.io/rblaine95/postgres)
-* [`python`](https://ghcr.io/rblaine95/python)
-* [`rust`](https://ghcr.io/rblaine95/rust)
+* [`alpine`](https://ghcr.io/eic/alpine)
+* [`busybox`](https://ghcr.io/eic/busybox)
+* [`curl`](https://ghcr.io/eic/curl)
+* [`debian`](https://ghcr.io/eic/debian)
+* [`docker`](https://ghcr.io/eic/docker)
+* [`golang`](https://ghcr.io/eic/golang)
+* [`node`](https://ghcr.io/eic/node)
+* [`mysql`](https://ghcr.io/eic/mysql)
+* [`openjdk`](https://ghcr.io/eic/openjdk) **DEPRECATED** - docker-library/openjdk#505
+* [`postgres`](https://ghcr.io/eic/postgres)
+* [`python`](https://ghcr.io/eic/python)
+* [`rust`](https://ghcr.io/eic/rust)
 
-[github-actions-badge]: https://img.shields.io/github/actions/workflow/status/rblaine95/dockerhub-mirror/mirror.yml?branch=master "Github Workflow Status (master)"
-[github-actions-link]: https://github.com/rblaine95/dockerhub-mirror/actions?query=workflow%3AMirror%20Dockerhub
+[github-actions-badge]: https://img.shields.io/github/actions/workflow/status/eic/dockerhub-mirror/mirror.yml?branch=master "Github Workflow Status (master)"
+[github-actions-link]: https://github.com/eic/dockerhub-mirror/actions?query=workflow%3AMirror%20Dockerhub
